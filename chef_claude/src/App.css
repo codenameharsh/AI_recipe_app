@@ -1,0 +1,73 @@
+
+
+body{
+  background-color: #FAFAF8;
+  margin:0;
+  padding: 0;
+}
+
+/* header section */
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  width: 100vw;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  gap: .7rem;
+  background-color: white;
+}
+
+header > h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  /* padding-left: 1rem; */
+}
+
+header > img {
+  width: 2.7rem;
+  height: 3.25rem;
+}
+
+ /* form section */
+ main{
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+ }
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  width: 80vw;
+  position: absolute;
+  left: 63px;
+  top: 178px;
+  }
+
+ form > input {
+  padding: .5rem .8rem ;
+  width: 25rem;
+  height: 1.5rem;
+  border: 1px solid #D1D5DB;
+  border-radius: .4rem;
+ }
+
+form > button {
+  background: #141413;
+  padding: .5rem .8rem;
+  width: 11.5rem;
+  height: 2.6rem;
+  color: #FAFAF8;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-weight: 500;
+ }
