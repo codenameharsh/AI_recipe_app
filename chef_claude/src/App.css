@@ -35,9 +35,10 @@ header > img {
   margin: 0;
   padding: 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  width: 100vw;
-  height: 100vh;
+  /* width: 50vw; */
+  /* height: 100vh; */
  }
 
 form{
@@ -45,12 +46,10 @@ form{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  /* padding: 1rem; */
   gap: 2rem;
-  width: 80vw;
-  position: absolute;
-  left: 63px;
-  top: 178px;
+  width: 100vw;
+  height: 2.4rem;
   }
 
  form > input {
@@ -70,4 +69,14 @@ form > button {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   font-weight: 500;
+ }
+
+
+ ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:flex-start;
+  padding-left: 19rem;
+  margin: 2rem;
  }
