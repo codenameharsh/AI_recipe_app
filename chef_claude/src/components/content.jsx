@@ -9,6 +9,8 @@ export default function Content(){
 
     const [recipeShown, setRecipeShown] = React.useState(false)
 
+    
+
     function addIngredient(event) {
         event.preventDefault()
         const newIngredient = event.target.ingredient.value
