@@ -1,5 +1,4 @@
 import React from 'react'
-import huggingFaceApi from './huggingFaceApi';
 import ClaudeRecipe from './ClaudeRecipe.jsx'
 import IngredientsList from './IngredientsList.jsx'
 
